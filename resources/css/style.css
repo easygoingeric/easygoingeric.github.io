@@ -1,0 +1,54 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.thumbnail {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enlarged {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.enlarged img {
+    max-width: 80%;
+    max-height: 80vh;
+    margin-bottom: 20px;
+    display: block; /* Ensures each image is on a new line */
+}
+
